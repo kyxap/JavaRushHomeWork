@@ -18,13 +18,10 @@ public class Solution
         //напишите тут ваш код
         int arSize = 10;
         int inputCounts = 8;
-
         //initialize ar
         String[] ar = initializeArray(arSize, inputCounts);
         //print all stuff
         printStrAr(ar);
-
-
     }
 
     public static String[] initializeArray(int arSize, int inputCounts) throws IOException
