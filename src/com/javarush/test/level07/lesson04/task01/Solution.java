@@ -22,9 +22,9 @@ public class Solution
     }
     public static int[] initializeArray() throws IOException {
         //Инициализируйте (создайте и заполните) массив тут
-        int[] intAr = new int[10];
+        int[] intAr = new int[20];
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         for (int i = 0; i < intAr.length; i++){
-            BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
             intAr[i] = Integer.parseInt(reader.readLine());
         }
         return intAr;
