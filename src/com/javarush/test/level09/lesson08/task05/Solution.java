@@ -13,19 +13,9 @@ public class Solution
     }
 
     public static void processExceptions(Solution obj) {
-        try
-        {
-            obj.method1();
-            obj.method2();
-            obj.method3();
-        } catch (IndexOutOfBoundsException e){
-            e.printStackTrace();
-        }catch (NumberFormatException  e){
-            e.printStackTrace();
-        }catch (NullPointerException  e){
-            e.printStackTrace();
-        }
-
+        obj.method1();
+        obj.method2();
+        obj.method3();
     }
 
     public static void printStack(Throwable throwable) {
